@@ -1,3 +1,35 @@
 #urgente {
   color: rgb(216, 32, 32);
 }
+
+body {
+  background-color: lightblue;
+}
+
+.intro {
+  background-color: rgb(167, 158, 124);
+}
+
+.name {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  75% {
+    font-size: 200%;
+    margin-left: 50%;
+    width: 100%;
+  }
+}

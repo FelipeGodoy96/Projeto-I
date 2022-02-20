@@ -4,6 +4,8 @@
 
 body {
   background-color: lightblue;
+  background-image: url(https://media.istockphoto.com/photos/candy-background-picture-id917606744?k=20&m=917606744&s=170667a&w=0&h=6VFtEVO7j2U4C6E3pq3CNbSzubhmSkjObdpH1FxGQdE=);
+  background-size: cover;
 }
 
 .intro {
@@ -27,4 +29,21 @@ body {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+.recipe-instructions {
+  display: flex;
+  background-color: rgba(21, 151, 184, 0.2);
+}
+
+.more-recipe {
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
 }
